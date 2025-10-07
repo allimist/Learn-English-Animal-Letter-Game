@@ -49,5 +49,5 @@ Made with ❤️ to help children learn English in a fun and interactive way.
 
 ## 🌐 Live Demo
 
-👉 [Click here to play the game](https://allimist.github.io/Learn-English-Ani
+👉 [Click here to play the game](https://allimist.github.io/Learn-English-Animal-Letter-Game/)
 
