@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn English: Animal Word Learning Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Learn English: Animal Word Learning Game</h1>
+
+  <div id="game-container">
+    <!-- Image Container -->
+    <div id="image-container">
+      <img id="image-to-match" src="" alt="Animal" />
+    </div>
+
+    <!-- Word Buttons (letters) -->
+    <div id="words-container"></div>
+
+    <!-- Feedback Messages -->
+    <p id="feedback"></p>
+
+  <!-- Navigation Buttons -->
+  <div id="nav-buttons">
+    <button id="prev-question" onclick="prevQuestion()" style="display:none;" aria-label="Previous Animal">⬅️</button>
+    <button id="next-question" onclick="nextQuestion()" aria-label="Next Animal">➡️</button>
+  </div>
+
+
+
+  <!-- Audio for Correct/Incorrect answers and Letter Sounds -->
+  <audio id="correct-sound" src="sounds/correct.mp3"></audio>
+  <audio id="incorrect-sound" src="sounds/incorrect.mp3"></audio>
+
+  <!-- Sounds for each letter -->
+  <audio id="letter-sound-A" src="sounds/a.mp3"></audio>
+  <audio id="letter-sound-B" src="sounds/b.mp3"></audio>
+  <audio id="letter-sound-C" src="sounds/c.mp3"></audio>
+  <audio id="letter-sound-D" src="sounds/d.mp3"></audio>
+  <audio id="letter-sound-E" src="sounds/e.mp3"></audio>
+  <audio id="letter-sound-F" src="sounds/f.mp3"></audio>
+  <audio id="letter-sound-G" src="sounds/g.mp3"></audio>
+  <audio id="letter-sound-H" src="sounds/h.mp3"></audio>
+  <audio id="letter-sound-I" src="sounds/i.mp3"></audio>
+  <audio id="letter-sound-J" src="sounds/j.mp3"></audio>
+  <audio id="letter-sound-K" src="sounds/k.mp3"></audio>
+  <audio id="letter-sound-L" src="sounds/l.mp3"></audio>
+  <audio id="letter-sound-M" src="sounds/m.mp3"></audio>
+  <audio id="letter-sound-N" src="sounds/n.mp3"></audio>
+  <audio id="letter-sound-O" src="sounds/o.mp3"></audio>
+  <audio id="letter-sound-P" src="sounds/p.mp3"></audio>
+  <audio id="letter-sound-Q" src="sounds/q.mp3"></audio>
+  <audio id="letter-sound-R" src="sounds/r.mp3"></audio>
+  <audio id="letter-sound-S" src="sounds/s.mp3"></audio>
+  <audio id="letter-sound-T" src="sounds/t.mp3"></audio>
+  <audio id="letter-sound-U" src="sounds/u.mp3"></audio>
+  <audio id="letter-sound-V" src="sounds/v.mp3"></audio>
+  <audio id="letter-sound-W" src="sounds/w.mp3"></audio>
+  <audio id="letter-sound-X" src="sounds/x.mp3"></audio>
+  <audio id="letter-sound-Y" src="sounds/y.mp3"></audio>
+  <audio id="letter-sound-Z" src="sounds/z.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
