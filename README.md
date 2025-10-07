@@ -31,6 +31,13 @@ An educational browser game for children to help them **learn animal names**, **
 
 ---
 
+## Technologies Used
+
+- **HTML** for the structure of the web page.
+- **CSS** for styling the game interface.
+- **JavaScript** for the game logic and interaction.
+
+
 ## 📁 Project Structure
 
 📁 images/ → Animal images
@@ -50,4 +57,8 @@ Made with ❤️ to help children learn English in a fun and interactive way.
 ## 🌐 Live Demo
 
 👉 [Click here to play the game](https://allimist.github.io/Learn-English-Animal-Letter-Game/)
+
+## License
+
+This project is **free for all** and licensed under the MIT License. Feel free to use, modify, and distribute it as you see fit.
 
